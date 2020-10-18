@@ -12,8 +12,6 @@ SELECT yr
 SELECT id, title, yr FROM movie
   WHERE title LIKE '%Star Trek%'
   ORDER BY yr
-SELECT title FROM movie
-  WHERE id IN (11768, 11955, 21191)
 -- What id number does the actor 'Glenn Close' have?  
 SELECT id FROM actor
   WHERE name = 'Glenn Close'
